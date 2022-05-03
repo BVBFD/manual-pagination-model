@@ -1,0 +1,31 @@
+.paginationBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.6rem;
+}
+
+li {
+  list-style: none;
+  width: 1.2rem;
+  height: 1.5rem;
+  text-align: center;
+  margin: 0 0.4rem 0 0.4rem;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+li.active {
+  background-color: black;
+  color: white;
+  border-radius: 0.2rem;
+}
